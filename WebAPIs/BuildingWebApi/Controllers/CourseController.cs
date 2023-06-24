@@ -20,7 +20,6 @@ namespace BuildingWebApi.Controllers
             return Ok(courseservice.GetCourses());
         }
 
-
         [HttpGet("{id}")]
         public IActionResult GetCourse(string id)
         {

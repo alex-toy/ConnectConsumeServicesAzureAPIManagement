@@ -1,0 +1,7 @@
+[
+    { "id":"1","CourseID":"Course0001", "CourseName" : "AZ-204 Developing Azure solutions", "Rating" : 4.5 },
+    { "id":"2","CourseID":"Course0002", "CourseName" : "AZ-303 Architecting Azure solutions", "Rating" : 4.6 },
+    { "id":"3", "CourseID":"Course0003", "CourseName" : "DP-203 Azure Data Engineer", "Rating" : 4.7 },
+    { "id":"4","CourseID":"Course0004", "CourseName" : "AZ-900 Azure Fundamentals", "Rating" : 4.6 },
+    { "id":"5","CourseID":"Course0005", "CourseName" : "AZ-104 Azure Administrator", "Rating" : 4.5 }
+]
