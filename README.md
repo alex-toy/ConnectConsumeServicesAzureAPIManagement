@@ -35,4 +35,32 @@
 - use the API in Postman
 <img src="/pictures/http_api3.png" title="http api"  width="900">
 
+- add an operation to retrieve a courseId
+<img src="/pictures/http_api4.png" title="http api"  width="900">
+
+- use it again in Postman
+<img src="/pictures/http_api5.png" title="http api"  width="900">
+
+- add an operation to post a course
+<img src="/pictures/http_api6.png" title="http api"  width="900">
+
+- use it again in Postman
+<img src="/pictures/http_api7.png" title="http api"  width="900">
+
+### Limit access to the Web App
+
+It doesn't make sense to be able to access the API through the *API Management* as well as the *Web App*. Let's restrict that.
+
+- in the networking section, go to *Access Restriction*
+<img src="/pictures/limit_access.png" title="limit access"  width="900">
+
+- add a rule to deny all trafic
+<img src="/pictures/limit_access2.png" title="limit access"  width="900">
+
+- add a rule to allow acces from *API Management*. Grab the ip address in the overall section
+<img src="/pictures/limit_access3.png" title="limit access"  width="900">
+
+- we now have forbidden access to the web app, but we still have access from the *API Management* 
+<img src="/pictures/limit_access4.png" title="limit access"  width="900">
+
 
