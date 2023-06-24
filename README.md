@@ -3,7 +3,7 @@
 
 ## API Management
 
-### API Management
+### Create the API
 
 - create a web app in a resource location
 
@@ -23,4 +23,16 @@
 
 - you can now use it to create new courses
 <img src="/pictures/api_management5.png" title="api management"  width="900">
+
+### Add the API to API Management
+
+- choose HTTP API
+<img src="/pictures/http_api.png" title="http api"  width="900">
+
+- add a frontend operation
+<img src="/pictures/http_api2.png" title="http api"  width="900">
+
+- use the API in Postman
+<img src="/pictures/http_api3.png" title="http api"  width="900">
+
 
