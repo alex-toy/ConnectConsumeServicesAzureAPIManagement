@@ -1,7 +1,7 @@
 # Connect and Consume services - Azure API Management
 
 
-## API Management
+## API Management Basics
 
 ### Create the API
 
@@ -47,6 +47,9 @@
 - use it again in Postman
 <img src="/pictures/http_api7.png" title="http api"  width="900">
 
+
+## API Management Advanced
+
 ### Limit access to the Web App
 
 It doesn't make sense to be able to access the API through the *API Management* as well as the *Web App*. Let's restrict that.
@@ -62,5 +65,10 @@ It doesn't make sense to be able to access the API through the *API Management* 
 
 - we now have forbidden access to the web app, but we still have access from the *API Management* 
 <img src="/pictures/limit_access4.png" title="limit access"  width="900">
+
+### Virtual Network Connectivity
+
+- create a VM
+<img src="/pictures/virtual_network_connectivity.png" title="virtual network connectivity"  width="900">
 
 
